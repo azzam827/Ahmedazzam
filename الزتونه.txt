@@ -1,0 +1,15 @@
+FLIGHT PRICE PREDICTION
+
+Files:
+- flight_price_prediction.py : all ML code in one Python file
+- app.py                    : Streamlit GUI
+- Clean_Dataset.csv         : dataset
+- requirements.txt          : packages
+
+Run:
+1) pip install -r requirements.txt
+2) python flight_price_prediction.py
+3) The script trains the models, evaluates them, and saves flight_price_model.pkl
+4) streamlit run app.py
+
+The preprocessing, encoding, feature selection and model are saved together in one Pipeline, so the app uses the exact same transformations during prediction.
